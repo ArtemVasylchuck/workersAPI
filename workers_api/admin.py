@@ -1,3 +1,7 @@
 from django.contrib import admin
+from .models import TypeOfTeam, Team, Developer
 
-# Register your models here.
+admin.site.register(Team)
+admin.site.register(TypeOfTeam)
+admin.site.register(Developer)
+
